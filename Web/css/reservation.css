@@ -1,0 +1,199 @@
+#header nav ul li.reservation a {
+	color: #fff;
+}
+
+#reserve {
+	margin: 60px 0;
+	overflow: hidden;
+}
+
+#reserve .hotelroom {
+	background-color: #333;
+	font-family: 'Roboto-Bold';
+	font-size: 24px;
+	overflow: hidden;
+	width: 570px;
+	margin-right: 60px;
+	float: left;
+}
+#reserve .hotelroom section {
+	overflow: hidden;
+	margin-top: 20px;
+}
+#reserve .hotelroom section:last-child {
+	margin-bottom: 20px;
+}
+
+#reserve .hotelroom section p {
+	float: left;
+	margin-left: 20px;
+	width: 90px; height: 90px;
+	text-align: center;
+	line-height: 90px;
+}
+#reserve .hotelroom section .chked {
+	color: #003;
+	background-color: #ccc;
+}
+#reserve .hotelroom section .unchked {
+	color: #fff;
+	background-color: #f60;
+}
+#reserve .hotelroom section p.already {
+	color: #fff;
+	background-color: #ddd;
+	text-decoration: line-through;
+}
+#reserve .hotelroom section p.already:hover {
+	cursor: default;
+}
+#reserve .hotelroom section p:last-child {
+	margin-right: 20px;
+}
+#reserve .hotelroom section p:hover {
+	cursor: pointer;
+}
+
+
+
+form#before {
+	overflow: hidden;
+	height: 350px;
+}
+form#before section {
+	margin-bottom: 45px;
+}
+form#before section:last-child {
+	display: block;
+}
+form#before section label {
+	font-size: 24px;
+	font-family: 'Roboto-Bold';
+	margin-bottom: 15px;
+	width: 200px;
+	display: block;
+}
+form#before section input {
+	display: block;
+	width: 200px;
+	height: 30px;
+}
+
+
+.roomdetail {
+	overflow: hidden;
+	margin-top: 30px;
+}
+.roomdetail>section {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.roomdetail>section>p {
+	font-family: 'Roboto-Bold';
+	font-size: 24px;
+	float: left;
+	margin-right: 45px;
+}
+.roomdetail>section>section {
+	line-height: 28px;
+	overflow: hidden;
+}
+.roomdetail>section>section * {
+	float: left;
+}
+.roomdetail>section>section p {
+	margin-right: 30px;
+}
+.roomdetail>section>section span {
+	color: #fff;
+	font-family: 'Roboto-Bold';
+	display: block;
+	line-height: 28px;
+	width: 28px; height: 28px;
+	background-color: #f60;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 15px;
+}
+.roomdetail>section>section span:nth-of-type(2) {
+	color: #003;
+	background-color: #fff;
+}
+.roomdetail>section>section span:hover{
+	cursor: pointer;
+}
+.roomdetail .submit {
+	color: #fff; background-color: #f60;
+	width: 120px; height: 60px;
+	text-align: center; line-height: 60px;
+	font-family: 'Roboto-Bold';
+}
+.roomdetail .submit:hover {
+	cursor: pointer;
+}
+
+.aftersubmit {
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(51, 51, 51, 0.7);
+	top: 0; left: 0;
+
+}
+.aftersubmit div {
+	overflow: hidden;
+	position: absolute;
+	width: 540px;
+	padding: 30px;
+	z-index: 1;
+	background-color: #f7f7f7;
+	top: 50%;
+	left: 50%;
+	margin-left: -300px;
+	margin-top: -218px;
+}
+.aftersubmit h2 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.aftersubmit form section {
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.aftersubmit form section label:first-child {
+	width: 140px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+.aftersubmit form section input {
+	line-height: 1em;
+	height: 24px;
+}
+.aftersubmit form #submit {
+	padding: 5px;
+	font-size: 18px;
+	background-color: #f60;
+	color: #fff;
+	font-family: 'Roboto-Regular';
+	border: 1px solid #000;
+}
+.aftersubmit form #submit {
+	cursor: pointer;
+}
+.aftersubmit form #cancel {
+	width: 30px; height: 30px;
+	font-size: 18px;
+	background-color: #999;
+	color: #fff;
+	font-family: 'Roboto-Bold';
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 1px solid #000;
+}
+.aftersubmit form #cancel:hover {
+	cursor: pointer;
+}
