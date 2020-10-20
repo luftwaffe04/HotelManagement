@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 900px)
+{
+	.wrap #reserve .hotelroom {
+		width: 100%;
+		float: none;
+	}
+	.wrap #reserve .hotelroom section {
+		overflow: hidden;
+		margin-top: 4.16vw;
+	}
+	.wrap #reserve .hotelroom section:last-child {
+		margin-bottom: 4.16vw;
+	}
+	.wrap #reserve .hotelroom section p {
+		width: 15%; height: 15vw;
+		line-height: 15vw;
+		margin-left: 4.16%;
+	}
+	.wrap #reserve .hotelroom section p:last-child {
+		margin-right: 4.16%;
+	}
+
+	.wrap form#before {
+		margin-left: 30px;
+		margin-top: 30px;
+		height: auto;
+	}
+	.wrap form#before section {
+		margin-bottom: 30px;
+	}
+	.wrap form#before section label {
+		font-size: 28px;
+		line-height: 34px;
+		float: left;
+	}
+	.wrap form#before section input {
+		float: none;
+		width: 200px;
+		height: 30px;
+	}
+
+	.wrap .roomdetail {
+		margin-top: 0;
+		margin-left: 30px;
+	}
+	.wrap .roomdetail>section>p {
+		float: left;
+		font-size: 28px;
+		width: 200px;
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 620px) {
+	body .aftersubmit>div {
+		width: 100%;
+		padding-left: 0; padding-right: 0;
+		top: 50%;
+		left: 50%;
+		margin-left: -50%;
+		margin-top: -50%;
+	}
+	body .aftersubmit h2 {
+		font-size: 24px;
+		margin-left: 30px;
+	}
+	body .aftersubmit form {
+		margin-left: 30px;
+	}
+}
+
+@media only screen and (max-width: 499px)
+{
+	.wrap #reserve .hotelroom section p {
+		font-size: 18px;
+		width: 15%; height: 15vw;
+		line-height: 15vw;
+		margin-left: 4.1%;
+	}
+	.wrap #reserve .hotelroom section p:last-child {
+		margin-right: 4.1%;
+	}
+
+	.wrap form#before {
+		margin-left: 4vw;
+		margin-right: 4vw;
+	}
+	.wrap form#before section label {
+		font-size: 24px;
+		line-height: 24px;
+		margin-right: 15px;
+		width: 40vw;
+	}
+	.wrap form#before section input {
+		float: none;
+		height: 24px;
+		width: 40vw;
+	}
+
+	.wrap .roomdetail {
+		margin-left: 4vw;
+	}
+	.wrap .roomdetail>section>p {
+		float: left;
+		font-size: 24px;
+		width: 25vw;
+		margin-right: 0;
+	}
+	.wrap .roomdetail>section>section p {
+		margin-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	body .aftersubmit>div {
+		height: 100%;
+		padding-left: 0; padding-right: 0;
+		top: 0; left: 0;
+		margin-left: 0; margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 330px)
+{
+	.wrap form#before {
+		margin-left: 4vw;
+		margin-right: 4vw;
+	}
+	.wrap form#before section label {
+		font-size: 24px;
+		line-height: 24px;
+		float: none;
+		margin-right: 15px;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.wrap form#before section input {
+		float: none;
+		height: 28px;
+		width: 80vw;
+		margin-left: 5vw;
+		margin-right: 5vw;
+	}
+
+	.wrap .roomdetail {
+		margin-left: 4vw;
+	}
+	.wrap .roomdetail>section>p {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.wrap .roomdetail>section>section {
+		width: 100%;
+		text-align: center;
+	}
+	.wrap .roomdetail>section>section p {
+		margin-left: 10vw;
+		margin-right: 15px;
+	}
+	.wrap .roomdetail .submit {
+		width: 95%;
+	}
+}
