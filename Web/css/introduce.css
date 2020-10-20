@@ -1,0 +1,60 @@
+#header nav ul li.introduce a {
+	color: #fff;
+}
+#info {
+	overflow: hidden;
+	margin-top: 60px;
+}
+
+
+
+#info div {
+	margin-bottom: 60px;
+}
+#info article {
+	margin-bottom: 60px;
+}
+#info article h2 {
+	font-size: 24px;
+	color: #f60;
+	font-family: 'Roboto-Bold';
+	margin-bottom: 30px;
+}
+#info article h3 {
+	font-size: 24px;
+	font-family: 'Roboto-Regular';
+	margin-bottom: 15px;
+}
+#info article p {
+	margin-bottom: 15px;
+}
+
+
+
+#info .mission ul {
+	overflow: hidden;
+}
+#info .mission ul li {
+	width: 290px;
+	overflow: hidden;
+	float: left;
+	background-color: rgba(255, 102, 0, 0.7);
+	padding: 30px;
+}
+#info .mission ul li:first-child {
+	margin-right: 75px;
+}
+#info .mission ul li:last-child {
+	margin-left: 75px;
+}
+#info .mission ul li * {
+	text-align: center;
+}
+#info .mission ul li p {
+	margin-bottom: 0;
+}
+
+#info article:last-child span {
+	font-family: 'Roboto-Bold';
+	margin: 0 10px;
+}
