@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1431</width>
+    <height>778</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1431</width>
+    <height>778</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="main_label">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>0</y>
+      <width>661</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>DejaVu Sans</family>
+      <pointsize>26</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>HaHa Hotel Management System </string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>1361</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>예약확인</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>80</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>101호 </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>270</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>103호</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>470</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>105호</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>170</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>102호</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>370</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>104호</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>170</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>202호</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>470</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>205호</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>370</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>204호</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>80</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>201호 </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>270</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>203호</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_101">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>80</y>
+        <width>31</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_102">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>170</y>
+        <width>31</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_103">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>270</y>
+        <width>31</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_104">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>370</y>
+        <width>31</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_105">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>470</y>
+        <width>31</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_201">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>80</y>
+        <width>31</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_202">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>170</y>
+        <width>31</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_203">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>270</y>
+        <width>31</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_204">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>370</y>
+        <width>31</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_205">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>470</y>
+        <width>31</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>30</y>
+        <width>81</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>체크인여부</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>30</y>
+        <width>81</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>체크인여부</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkin101">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>60</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check in</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkout101">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>100</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkin102">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>150</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check in</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkout102">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>190</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkin103">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>250</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check in</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkout103">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>290</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkin104">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>350</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check in</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkout104">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>390</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkin105">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>450</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check in</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkout105">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>490</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkin201">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>60</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check in</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkout201">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>100</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkin202">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>150</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check in</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkout202">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>190</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkin203">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>240</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check in</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkout203">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>280</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkin204">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>350</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check in</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkout204">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>390</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkin205">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>450</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check in</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkout205">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>490</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Check out</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_101">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>80</y>
+        <width>101</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예약여부</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_102">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>170</y>
+        <width>101</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예약여부</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_103">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>260</y>
+        <width>101</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예약여부</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_104">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>360</y>
+        <width>101</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예약여부</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_105">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>470</y>
+        <width>101</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예약여부</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_6">
+      <property name="geometry">
+       <rect>
+        <x>1030</x>
+        <y>70</y>
+        <width>101</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예약여부</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_7">
+      <property name="geometry">
+       <rect>
+        <x>1030</x>
+        <y>170</y>
+        <width>101</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예약여부</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_8">
+      <property name="geometry">
+       <rect>
+        <x>1030</x>
+        <y>260</y>
+        <width>101</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예약여부</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_9">
+      <property name="geometry">
+       <rect>
+        <x>1030</x>
+        <y>370</y>
+        <width>101</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예약여부</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_10">
+      <property name="geometry">
+       <rect>
+        <x>1030</x>
+        <y>470</y>
+        <width>101</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예약여부</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_client101">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>80</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>고객정보</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_client102">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>170</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>고객정보</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_client103">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>260</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>고객정보</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_client104">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>360</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>고객정보</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_client105">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>460</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>고객정보</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_client201">
+      <property name="geometry">
+       <rect>
+        <x>1190</x>
+        <y>60</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>고객정보</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_client202">
+      <property name="geometry">
+       <rect>
+        <x>1190</x>
+        <y>170</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>고객정보</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_client203">
+      <property name="geometry">
+       <rect>
+        <x>1190</x>
+        <y>260</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>고객정보</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_client204">
+      <property name="geometry">
+       <rect>
+        <x>1190</x>
+        <y>370</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>고객정보</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_client205">
+      <property name="geometry">
+       <rect>
+        <x>1190</x>
+        <y>480</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>고객정보</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>방관리</string>
+     </attribute>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>80</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>101호</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_status101">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>70</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bitstream Charter</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_status102">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>150</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bitstream Charter</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>160</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>102호</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_status103">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>240</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bitstream Charter</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>250</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>103호</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_104">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>340</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bitstream Charter</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>350</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>104호</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_status105">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>440</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bitstream Charter</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>450</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>105호</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_status201">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>70</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bitstream Charter</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>80</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>201호</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_status202">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>150</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bitstream Charter</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>160</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>202호</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_status203">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>230</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bitstream Charter</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>240</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>203호</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_status204">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>330</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bitstream Charter</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>340</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>204호</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_status205">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>430</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bitstream Charter</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>440</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>205호</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>CCTV</string>
+     </attribute>
+     <widget class="QPushButton" name="btnStart">
+      <property name="geometry">
+       <rect>
+        <x>1240</x>
+        <y>20</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>START</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnStop">
+      <property name="geometry">
+       <rect>
+        <x>1240</x>
+        <y>60</y>
+        <width>99</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>STOP</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="imgLabel">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>20</y>
+        <width>351</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Camera Disabled</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>250</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CCTV1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_47">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>530</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CCTV3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_48">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>260</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CCTV2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_49">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>530</y>
+        <width>68</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CCTV4</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Screen2">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>10</y>
+        <width>351</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                               화면 조정 중</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Screen4">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>290</y>
+        <width>351</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                               화면 조정 중</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Screen3">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>290</y>
+        <width>351</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                               화면 조정 중</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_time">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>20</y>
+      <width>201</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_first">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>50</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Have a nice day!!</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Haha">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>0</y>
+      <width>101</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1431</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
