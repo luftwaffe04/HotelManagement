@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 450px)
+{
+	body .wrap {
+		width: 100%;
+	}
+	body .wrap #header {
+		width: 100%;
+		height: 100%;
+		left: -100%;
+		z-index: 9;
+	}
+	body #header nav ul li {
+		font-size: 24px;
+		margin-bottom: 45px;
+	}
+}
+
+@media only screen and (max-height: 600px)
+{
+	body #header nav ul li {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	body #footer {
+		padding: 16px;
+	}
+}
